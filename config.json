@@ -1,0 +1,23 @@
+{
+  "bridge": {
+    "name": "HomeBridge",
+    "username": "CC:22:3D:E3:CE:30",
+    "port": 51826,
+    "pin": "031-45-154"
+  },
+
+  "description": "HomeBridge microbit Lamp",
+
+  "accessories": [
+    {
+      "accessory": "Microbit",
+      "name": "microbit Lamp",
+      "switchHandling": "realtime",
+      "http_method": "GET",
+      "status_on": "ON",
+      "status_off": "OFF",
+      "service": "Light",
+      "brightnessHandling": "yes"
+    }
+  ]
+}
